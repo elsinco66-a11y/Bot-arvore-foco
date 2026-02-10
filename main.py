@@ -82,4 +82,5 @@ if __name__ == '__main__':
         application.add_handler(CommandHandler('paguei', paguei))
         application.add_handler(CommandHandler('status', status))
         
+
         application.run_polling()
